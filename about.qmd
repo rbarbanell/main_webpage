@@ -1,12 +1,9 @@
 ---
 title: "About"
 comments:
-<<<<<<< HEAD
-=======
-  comments:
->>>>>>> 344c57f33e5386ce82bd5dbe8269500e10c7d3da
-  giscus: 
-    repo: quarto-dev/quarto-docs
+ utterances: 
+      repo: quarto-dev/quarto-web
+      theme: dark-blue
 ---
 
 About this site
