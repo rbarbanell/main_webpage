@@ -2,11 +2,11 @@ project:
   type: website
 
 website:
-  comments:
-    utterances:
-     repo: quarto-dev/quarto-docs
-     theme: body-light
-  title: "main_webpage"
+ comments:
+  giscus: 
+    repo: quarto-dev/quarto-docs
+  
+title: "main_webpage"
   navbar:
     left:
       - href: index.qmd
