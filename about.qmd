@@ -1,9 +1,9 @@
 ---
 title: "About"
 comments:
-  utterances:
+  comments:
+  giscus: 
     repo: quarto-dev/quarto-docs
-    theme: body-light
 ---
 
 About this site
