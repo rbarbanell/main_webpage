@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  comments:
+    utterances:
+     repo: quarto-dev/quarto-docs
+     theme: body-light
+  title: "main_webpage"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
