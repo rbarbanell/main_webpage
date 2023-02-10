@@ -1,23 +1,33 @@
 project:
   type: website
+  output-dir: docs
 
 website:
- comments:
-  giscus: 
-    repo: quarto-dev/quarto-docs
-  
-title: "main_webpage"
+  comments: 
+    utterances: 
+      repo: quarto-dev/quarto-web
+      theme: dark-blue
+      issue-term: title
+  reader-mode: true
+  title: "Inquiring Minds Want to Know"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    background: dark
+    search: true
+    right:
       - about.qmd
-
+      - icon: github
+        href: https://github.com//rbarbanell
+ 
+        
+    
+      
+   
 format:
   html:
-    theme: cosmo
+    theme: vapor
     css: styles.css
-    toc: true
+    code-fold: true
+    code-summary: "Here is the code"
 
 
 
