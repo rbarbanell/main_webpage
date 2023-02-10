@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-<<<<<<< HEAD
   comments: 
     utterances: 
       repo: quarto-dev/quarto-web
@@ -11,12 +10,6 @@ website:
       issue-term: title
   reader-mode: true
   title: "Inquiring Minds Want to Know"
-=======
- comments:
-  giscus: 
-    repo: quarto-dev/quarto-docs
-  title: "main_webpage"
->>>>>>> 344c57f33e5386ce82bd5dbe8269500e10c7d3da
   navbar:
     background: dark
     search: true
@@ -34,6 +27,3 @@ format:
     css: styles.css
     code-fold: true
     code-summary: "Here is the code"
-
-
-
